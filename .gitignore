@@ -1,0 +1,5 @@
+pouch/**
+!pouch/.gitkeep
+log.txt
+
+node_modules

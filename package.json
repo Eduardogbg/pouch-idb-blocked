@@ -1,0 +1,24 @@
+{
+  "name": "pouch-idb-blocked",
+  "version": "1.0.0",
+  "description": "reproduction of pouchdb issue with indexeddb block event",
+  "scripts": {
+    "front": "vite",
+    "server": "vite-node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "events": "^3.3.0",
+    "express": "^4.18.2",
+    "express-pouchdb": "^4.2.0",
+    "pouchdb": "^8.0.1",
+    "pouchdb-adapter-indexeddb": "^8.0.1",
+    "pouchdb-find": "^8.0.1",
+    "pouchdb-server": "^4.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9",
+    "vite-node": "^0.34.2"
+  }
+}

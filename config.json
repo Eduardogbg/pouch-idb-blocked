@@ -1,0 +1,13 @@
+{
+  "cors": {
+    "methods": "GET, PUT, POST, HEAD, DELETE",
+    "origins": "*",
+    "headers": "accept, authorization, content-type, origin, referer"
+  },
+  "httpd": {
+    "enable_cors": true
+  },
+  "couchdb": {
+    "uuid": "28e443e6-f8db-4aa6-bf8a-504305635856"
+  }
+}
